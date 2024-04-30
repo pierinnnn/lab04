@@ -1,3 +1,4 @@
+import Accordion from 'react-bootstrap/Accordion';
 const Main = () => {
     return <main>
       <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -36,10 +37,17 @@ const Main = () => {
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <p class="col-lg-10 mx-left mb-4 text-center">
-    🚨LLEGO LA DIVERSIÓN PARA LOS GRANDES Y CHICOS!🚨
-⭐No hay nada como la aventura de correr con tus amigos, probar tus habilidades y sobre todo tener la seguridad de estar usando un juguete que no causara daño a personas u objetos.
-    </p>
+  <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Deseo saber más</Accordion.Header>
+        <Accordion.Body>
+        🚨LLEGO LA DIVERSIÓN PARA LOS GRANDES Y CHICOS!🚨 ⭐No 
+        hay nada como la aventura de correr con tus amigos, probar tus habilidades 
+        y sobre todo tener la seguridad de estar usando un juguete que no causara d
+        año a personas u objetos. 
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
     </main>;
 }
 
