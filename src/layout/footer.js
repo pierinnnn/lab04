@@ -10,7 +10,7 @@ const Footer = () => {
     <svg class="bi mt-1 mb-6" width="100px" height="5px"><use href="#check2-circle"></use></svg>
     <Container>
       <Row className="justify-content-center">
-        <Col xs={6}>
+        <Col xs={4}>
           <Toast>
             <Toast.Header>
               <strong className="me-auto">Contáctanos</strong>
