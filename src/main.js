@@ -36,8 +36,9 @@ const Main = () => {
         </Carousel>
         <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Deseo saber más</Accordion.Header>
-        <Accordion.Body>
+        <Accordion.Header><button type className="btn btn-primary" >Deseo saber mas</button></Accordion.Header>
+        
+        <Accordion.Body className='bg-warning'>
         🚨LLEGO LA DIVERSIÓN PARA LOS GRANDES Y CHICOS!🚨 ⭐No 
         hay nada como la aventura de correr con tus amigos, probar tus habilidades 
         y sobre todo tener la seguridad de estar usando un juguete que no causara d

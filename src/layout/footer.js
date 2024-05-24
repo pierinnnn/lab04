@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const Footer = () => {
     return <footer>
-        <div class="position-relative p-3 text-center text-muted bg-body border border-dashed rounded-5">
+        <div class="position-relative p-3 text-center text-muted bg-secondary border border-dashed rounded-5">
 
     <svg class="bi mt-1 mb-6" width="100px" height="5px"><use href="#check2-circle"></use></svg>
     <Container>
@@ -19,7 +19,7 @@ const Footer = () => {
   <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
 </svg></small>
             </Toast.Header>
-            <Toast.Body className="d-flex justify-content-center align-items-center">
+            <Toast.Body className="d-flex justify-content-center align-items-center bg-dark text-white">
               .............Llama al 987679087................
          <br></br>Creado por Sanchez Castro Giampiero
             </Toast.Body>
